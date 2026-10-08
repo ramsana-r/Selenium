@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.SwagLoginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="beforemthd"/>
+          <include name="login"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- test.SwagLoginTest -->
+      <class name="test.SwagCartTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="checkoutButtonclick"/>
+          <include name="setUp"/>
+          <include name="checkoutButton"/>
+          <include name="continueButton"/>
+          <include name="beforemthd"/>
+          <include name="carttextVerification"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- test.SwagCartTest -->
+      <class name="test.SwagHomeTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="cartIcon"/>
+          <include name="beforemthd"/>
+          <include name="textVerification"/>
+          <include name="dropdownClick"/>
+          <include name="addtocartButton"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- test.SwagHomeTest -->
+      <class name="test.SwagCheckoutTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="beforemthd"/>
+          <include name="setvaluesCheckout"/>
+          <include name="checkouttextVerification"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- test.SwagCheckoutTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

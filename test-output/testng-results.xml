@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-05T10:22:39 IST" name="Suite" finished-at="2026-10-05T10:23:03 IST" duration-ms="23907">
+    <groups>
+    </groups>
+    <test started-at="2026-10-05T10:22:39 IST" name="Test" finished-at="2026-10-05T10:23:03 IST" duration-ms="23907">
+      <class name="test.SwagLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.SwagLoginTest@6ed3ccb2]" started-at="2026-10-05T10:22:39 IST" name="setUp" finished-at="2026-10-05T10:22:47 IST" duration-ms="7445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforemthd(java.lang.reflect.Method)[pri:0, instance:test.SwagLoginTest@6ed3ccb2]" started-at="2026-10-05T10:22:47 IST" name="beforemthd" finished-at="2026-10-05T10:22:47 IST" duration-ms="44" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.SwagLoginTest.login() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemthd -->
+        <test-method signature="login()[pri:1, instance:test.SwagLoginTest@6ed3ccb2]" started-at="2026-10-05T10:22:47 IST" name="login" finished-at="2026-10-05T10:22:50 IST" duration-ms="3646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:test.SwagLoginTest@6ed3ccb2]" started-at="2026-10-05T10:22:50 IST" name="browserclose" finished-at="2026-10-05T10:22:50 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=SwagLoginTest.login()[pri:1, instance:test.SwagLoginTest@6ed3ccb2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.SwagLoginTest@6ed3ccb2]" started-at="2026-10-05T10:23:02 IST" name="teardown" finished-at="2026-10-05T10:23:03 IST" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.SwagLoginTest -->
+      <class name="test.SwagHomeTest">
+        <test-method is-config="true" signature="beforemthd(java.lang.reflect.Method)[pri:0, instance:test.SwagHomeTest@3bf7ca37]" started-at="2026-10-05T10:22:50 IST" name="beforemthd" finished-at="2026-10-05T10:22:50 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.SwagHomeTest.textVerification() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemthd -->
+        <test-method signature="textVerification()[pri:2, instance:test.SwagHomeTest@3bf7ca37]" started-at="2026-10-05T10:22:50 IST" name="textVerification" finished-at="2026-10-05T10:22:53 IST" duration-ms="3118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textVerification -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:test.SwagHomeTest@3bf7ca37]" started-at="2026-10-05T10:22:54 IST" name="browserclose" finished-at="2026-10-05T10:22:54 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=textVerification status=SUCCESS method=SwagHomeTest.textVerification()[pri:2, instance:test.SwagHomeTest@3bf7ca37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="beforemthd(java.lang.reflect.Method)[pri:0, instance:test.SwagHomeTest@3bf7ca37]" started-at="2026-10-05T10:22:54 IST" name="beforemthd" finished-at="2026-10-05T10:22:54 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.SwagHomeTest.dropdownClick()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemthd -->
+        <test-method signature="dropdownClick()[pri:0, instance:test.SwagHomeTest@3bf7ca37]" started-at="2026-10-05T10:22:54 IST" name="dropdownClick" finished-at="2026-10-05T10:22:54 IST" depends-on-methods="test.SwagHomeTest.textVerification" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownClick -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:test.SwagHomeTest@3bf7ca37]" started-at="2026-10-05T10:22:54 IST" name="browserclose" finished-at="2026-10-05T10:22:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dropdownClick status=SUCCESS method=SwagHomeTest.dropdownClick()[pri:0, instance:test.SwagHomeTest@3bf7ca37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="beforemthd(java.lang.reflect.Method)[pri:0, instance:test.SwagHomeTest@3bf7ca37]" started-at="2026-10-05T10:22:54 IST" name="beforemthd" finished-at="2026-10-05T10:22:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.SwagHomeTest.addtocartButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemthd -->
+        <test-method signature="addtocartButton()[pri:0, instance:test.SwagHomeTest@3bf7ca37]" started-at="2026-10-05T10:22:54 IST" name="addtocartButton" finished-at="2026-10-05T10:22:54 IST" depends-on-methods="test.SwagHomeTest.dropdownClick" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocartButton -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:test.SwagHomeTest@3bf7ca37]" started-at="2026-10-05T10:22:55 IST" name="browserclose" finished-at="2026-10-05T10:22:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addtocartButton status=SUCCESS method=SwagHomeTest.addtocartButton()[pri:0, instance:test.SwagHomeTest@3bf7ca37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="beforemthd(java.lang.reflect.Method)[pri:0, instance:test.SwagHomeTest@3bf7ca37]" started-at="2026-10-05T10:22:55 IST" name="beforemthd" finished-at="2026-10-05T10:22:55 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.SwagHomeTest.cartIcon()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemthd -->
+        <test-method signature="cartIcon()[pri:0, instance:test.SwagHomeTest@3bf7ca37]" started-at="2026-10-05T10:22:55 IST" name="cartIcon" finished-at="2026-10-05T10:22:55 IST" depends-on-methods="test.SwagHomeTest.addtocartButton" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartIcon -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:test.SwagHomeTest@3bf7ca37]" started-at="2026-10-05T10:22:55 IST" name="browserclose" finished-at="2026-10-05T10:22:55 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartIcon status=SUCCESS method=SwagHomeTest.cartIcon()[pri:0, instance:test.SwagHomeTest@3bf7ca37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- test.SwagHomeTest -->
+      <class name="test.SwagCheckoutTest">
+        <test-method is-config="true" signature="beforemthd(java.lang.reflect.Method)[pri:0, instance:test.SwagCheckoutTest@4d1c00d0]" started-at="2026-10-05T10:22:58 IST" name="beforemthd" finished-at="2026-10-05T10:22:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.SwagCheckoutTest.checkouttextVerification() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemthd -->
+        <test-method signature="checkouttextVerification()[pri:4, instance:test.SwagCheckoutTest@4d1c00d0]" started-at="2026-10-05T10:22:58 IST" name="checkouttextVerification" finished-at="2026-10-05T10:23:01 IST" duration-ms="3063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkouttextVerification -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:test.SwagCheckoutTest@4d1c00d0]" started-at="2026-10-05T10:23:01 IST" name="browserclose" finished-at="2026-10-05T10:23:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkouttextVerification status=SUCCESS method=SwagCheckoutTest.checkouttextVerification()[pri:4, instance:test.SwagCheckoutTest@4d1c00d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="beforemthd(java.lang.reflect.Method)[pri:0, instance:test.SwagCheckoutTest@4d1c00d0]" started-at="2026-10-05T10:23:01 IST" name="beforemthd" finished-at="2026-10-05T10:23:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.SwagCheckoutTest.setvaluesCheckout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemthd -->
+        <test-method signature="setvaluesCheckout()[pri:0, instance:test.SwagCheckoutTest@4d1c00d0]" started-at="2026-10-05T10:23:01 IST" name="setvaluesCheckout" finished-at="2026-10-05T10:23:02 IST" depends-on-methods="test.SwagCheckoutTest.checkouttextVerification" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setvaluesCheckout -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:test.SwagCheckoutTest@4d1c00d0]" started-at="2026-10-05T10:23:02 IST" name="browserclose" finished-at="2026-10-05T10:23:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setvaluesCheckout status=SUCCESS method=SwagCheckoutTest.setvaluesCheckout()[pri:0, instance:test.SwagCheckoutTest@4d1c00d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- test.SwagCheckoutTest -->
+      <class name="test.SwagCartTest">
+        <test-method is-config="true" signature="beforemthd(java.lang.reflect.Method)[pri:0, instance:test.SwagCartTest@79079097]" started-at="2026-10-05T10:22:55 IST" name="beforemthd" finished-at="2026-10-05T10:22:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.SwagCartTest.carttextVerification() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemthd -->
+        <test-method signature="carttextVerification()[pri:3, instance:test.SwagCartTest@79079097]" started-at="2026-10-05T10:22:55 IST" name="carttextVerification" finished-at="2026-10-05T10:22:58 IST" duration-ms="3093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carttextVerification -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:test.SwagCartTest@79079097]" started-at="2026-10-05T10:22:58 IST" name="browserclose" finished-at="2026-10-05T10:22:58 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=carttextVerification status=SUCCESS method=SwagCartTest.carttextVerification()[pri:3, instance:test.SwagCartTest@79079097] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="beforemthd(java.lang.reflect.Method)[pri:0, instance:test.SwagCartTest@79079097]" started-at="2026-10-05T10:22:58 IST" name="beforemthd" finished-at="2026-10-05T10:22:58 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.SwagCartTest.continueButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemthd -->
+        <test-method signature="continueButton()[pri:0, instance:test.SwagCartTest@79079097]" started-at="2026-10-05T10:22:58 IST" name="continueButton" finished-at="2026-10-05T10:22:58 IST" depends-on-methods="test.SwagCartTest.carttextVerification" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueButton -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:test.SwagCartTest@79079097]" started-at="2026-10-05T10:22:58 IST" name="browserclose" finished-at="2026-10-05T10:22:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=continueButton status=SUCCESS method=SwagCartTest.continueButton()[pri:0, instance:test.SwagCartTest@79079097] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="beforemthd(java.lang.reflect.Method)[pri:0, instance:test.SwagCartTest@79079097]" started-at="2026-10-05T10:22:58 IST" name="beforemthd" finished-at="2026-10-05T10:22:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.SwagCartTest.checkoutButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemthd -->
+        <test-method signature="checkoutButton()[pri:0, instance:test.SwagCartTest@79079097]" started-at="2026-10-05T10:22:58 IST" name="checkoutButton" finished-at="2026-10-05T10:22:58 IST" depends-on-methods="test.SwagCartTest.continueButton" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutButton -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:test.SwagCartTest@79079097]" started-at="2026-10-05T10:22:58 IST" name="browserclose" finished-at="2026-10-05T10:22:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutButton status=SUCCESS method=SwagCartTest.checkoutButton()[pri:0, instance:test.SwagCartTest@79079097] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="beforemthd(java.lang.reflect.Method)[pri:0, instance:test.SwagCartTest@79079097]" started-at="2026-10-05T10:22:58 IST" name="beforemthd" finished-at="2026-10-05T10:22:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.SwagCartTest.checkoutButtonclick()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemthd -->
+        <test-method signature="checkoutButtonclick()[pri:0, instance:test.SwagCartTest@79079097]" started-at="2026-10-05T10:22:58 IST" name="checkoutButtonclick" finished-at="2026-10-05T10:22:58 IST" depends-on-methods="test.SwagCartTest.checkoutButton" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutButtonclick -->
+        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:test.SwagCartTest@79079097]" started-at="2026-10-05T10:22:58 IST" name="browserclose" finished-at="2026-10-05T10:22:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutButtonclick status=SUCCESS method=SwagCartTest.checkoutButtonclick()[pri:0, instance:test.SwagCartTest@79079097] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- test.SwagCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
